@@ -1,4 +1,5 @@
 -r REQUIREMENTS
 
 pep8
+autopep8
 nose
