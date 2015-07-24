@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+# command to install dependencies
+install:
+  - "pip install -r REQUIREMENTS-DEV"
+# command to run tests
+script: 
+  - pep8 gabe_travis_demo
+  - nosetests
+  - echo 'hi irmak, hi bo'
